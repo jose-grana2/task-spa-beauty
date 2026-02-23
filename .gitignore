@@ -1,0 +1,5 @@
+node_modules/
+dist/
+*.map
+sass/*.css
+css/style.css
