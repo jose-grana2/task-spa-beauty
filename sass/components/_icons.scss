@@ -1,0 +1,35 @@
+.icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &--cart {
+        background-image: url('../assets/icons/cart.svg');
+    }
+
+    &--search {
+        background-image: url('../assets/icons/search.svg');
+    }
+}
+
+.service {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    &--special-treatment {
+        background-image: url('../assets/icons/service-special-treatment.svg');
+    }
+
+    &--therapist {
+        background-image: url('../assets/icons/service-therapist.svg');
+    }
+
+    &--herbal-cream {
+        background-image: url('../assets/icons/service-herbal-cream.svg');
+    }
+
+}
