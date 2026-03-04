@@ -1,0 +1,25 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    padding: 1rem;
+
+    .header-logo {
+        img {
+            width: 200px;
+        }
+    }
+    .main-nav {
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 10%;
+        }
+    }
+
+    .header-user-actions {
+
+    }
+
+    
+}
