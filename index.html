@@ -25,9 +25,11 @@
 <body>
   <header>
     <div class="header-container">
-      <a href="#" class="header-logo">
-        <img src="assets/img/GlowQueenLogo.png" alt="GlowQueen - Home">
-      </a>
+      <div class="header-logo-container">
+        <a href="#" class="header-link-logo">
+          <img class="header-logo" src="assets/img/GlowQueenLogo.png" alt="GlowQueen - Home">
+        </a>
+      </div>
       <nav class="main-nav" aria-label="Primary navigation">
         <ul>
           <li><a href="#">Home</a></li>
@@ -38,10 +40,14 @@
         </ul>
       </nav>
       <div class="header-user-actions">
-        <button class="icon icon--search" aria-label="Search"></button>
-        <button class="icon icon--cart" aria-label="Shopping cart"></button>
-        <a class="sign-in" href="#sign-in">Sign In</a>
-        <a class="sign-up btn-navy-blue" href="#sign-up">Sign Up</a>
+        <div class="user-actions-icons">
+          <button class="icon icon--search" aria-label="Search"></button>
+          <button class="icon icon--cart" aria-label="Shopping cart"></button>
+        </div>
+        <div class="user-actions-links">
+          <a class="sign-in" href="#sign-in">Sign In</a>
+          <a class="sign-up btn-navy-blue" href="#sign-up">Sign Up</a>
+        </div>
       </div>
     </div>
   </header>

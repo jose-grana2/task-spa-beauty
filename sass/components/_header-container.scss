@@ -1,23 +1,74 @@
+@use '../abstracts/variables' as *;
+
+header {
+    width: 100%;
+}
 .header-container {
+    margin: 0 auto;
+    padding: 0 2rem;
+
     display: flex;
     align-items: center;
-    gap: 20%;
-    padding: 1rem;
+    gap: 5rem;
 
-    .header-logo {
-        img {
-            width: 200px;
+    
+    a {
+        color: $text-color;
+    }
+
+    .header-logo-container {
+        display: flex;
+        justify-content: flex-start;
+        .header-link-logo {
+            .header-logo {
+                width: 200px;
+            }
         }
     }
+    
     .main-nav {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        
         ul {
             list-style: none;
             display: flex;
-            gap: 10%;
+            gap: 2rem;
         }
     }
 
     .header-user-actions {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+
+        .user-actions-icons {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .user-actions-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+
+            .sign-in {
+                text-decoration: underline;
+                display: inline-block;
+            }
+            
+            .btn-navy-blue {
+                background-color: #264065;
+                color: white;
+                padding: 14px 30px;
+                border-radius: 50px;
+                text-decoration: none;
+                min-width: 132px;
+            }
+        }
+        
 
     }
 
