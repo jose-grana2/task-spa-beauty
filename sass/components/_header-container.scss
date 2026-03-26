@@ -4,9 +4,6 @@ header {
     width: 100%;
 }
 .header-container {
-    margin: 0 auto;
-    padding: 0 2rem;
-
     display: flex;
     align-items: center;
     gap: 5rem;
@@ -58,18 +55,7 @@ header {
                 text-decoration: underline;
                 display: inline-block;
             }
-            
-            .btn-navy-blue {
-                background-color: #264065;
-                color: white;
-                padding: 14px 30px;
-                border-radius: 50px;
-                text-decoration: none;
-                min-width: 132px;
-            }
         }
-        
-
     }
 
     
