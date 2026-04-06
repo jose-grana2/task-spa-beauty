@@ -1,37 +1,42 @@
+@use '../abstracts/variables' as *;
+
 .icon {
     display: inline-block;
     width: 2rem;
     height: 2rem;
     border-style: none;
+    border-radius: 150px;
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: contain;
-
-    &--cart {
-        background-image: url('../assets/icons/cart.svg');
-    }
-
-    &--search {
-        background-image: url('../assets/icons/search.svg');
-    }
 }
 
 .service {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
     &--special-treatment {
-        background-image: url('../assets/icons/service-special-treatment.svg');
+        background-repeat: no-repeat;
+        background-image: url('../../assets/icons/service-special-treatment.png');
+        padding: 20px;
     }
 
     &--therapist {
-        background-image: url('../assets/icons/service-therapist.svg');
+        background-repeat: no-repeat;
+        background-image: url('../../assets/icons/service-therapist.png');
+        padding: 20px;
     }
 
     &--herbal-cream {
-        background-image: url('../assets/icons/service-herbal-cream.svg');
+        background-repeat: no-repeat;
+        background-image: url('../../assets/icons/service-herbal-cream.png');
+        padding: 20px;
     }
+}
 
+
+.blue-icon {
+    color: #264065;
+    font-size: 18px;
+}
+
+.bg-green {
+    background-color: $background-green;
 }

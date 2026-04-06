@@ -11,6 +11,7 @@ header {
     
     a {
         color: $text-color;
+        text-decoration: none;
     }
 
     .header-logo-container {
@@ -54,6 +55,10 @@ header {
             .sign-in {
                 text-decoration: underline;
                 display: inline-block;
+            }
+
+            .sign-up {
+                color: white;
             }
         }
     }

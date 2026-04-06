@@ -28,18 +28,9 @@
 //7. Abstracts
 @use "abstracts" as *;
 
-body {
-  position: relative;
-  isolation: isolate;
-}
 
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 36%;
-  height: 78vh;
-  background-color: #a8d6ca;
-  z-index: -1;
+body {
+    margin: 0% 10%;
+    font-family: $text-font-stack;
+    background-color: $background-light;
 }

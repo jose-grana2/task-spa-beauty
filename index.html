@@ -1,13 +1,14 @@
 <!doctype html>
-<html class="no-js" lang="es">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title></title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <meta property="og:title" content="">
   <meta property="og:type" content="">
   <meta property="og:url" content="">
@@ -24,102 +25,115 @@
 
 <body>
   <header>
-    <div class="header-container">
-      <div class="header-logo-container">
-        <a href="#" class="header-link-logo">
-          <img class="header-logo" src="assets/img/GlowQueenLogo.png" alt="GlowQueen - Home">
-        </a>
-      </div>
-      <nav class="main-nav" aria-label="Primary navigation">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Facilities</a></li>
-          <li><a href="#">More</a></li>
-        </ul>
-      </nav>
-      <div class="header-user-actions">
-        <div class="user-actions-icons">
-          <button class="icon icon--search" aria-label="Search"></button>
-          <button class="icon icon--cart" aria-label="Shopping cart"></button>
-        </div>
-        <div class="user-actions-links">
-          <a class="sign-in" href="#sign-in">Sign In</a>
-          <a class="sign-up btn-navy-blue" href="#sign-up">Sign Up</a>
-        </div>
+    <div class="container">
+      <div class="header-container">
+          <div class="header-logo-container">
+            <a href="#" class="header-link-logo">
+              <img class="header-logo" src="assets/img/GlowQueenLogo.png" alt="GlowQueen - Home">
+            </a>
+          </div>
+          <nav class="main-nav" aria-label="Primary navigation">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Facilities</a></li>
+              <li><a href="#">More</a></li>
+            </ul>
+          </nav>
+          <div class="header-user-actions">
+            <div class="user-actions-icons">
+              <a href="#search"><i class="fa-solid fa-magnifying-glass blue-icon"></i></a>
+              <a href="#cart"><i class="fa-solid fa-bag-shopping blue-icon"></i></a>
+            </div>
+            <div class="user-actions-links">
+              <a class="sign-in" href="#sign-in">Sign In</a>
+              <a class="sign-up btn-navy-blue" href="#sign-up">Sign Up</a>
+            </div>
+          </div>
       </div>
     </div>
+  
   </header>
-  <main class="main custom-bg">
-    <!-- Background -->
-    <img class="bg-image" src="assets/img/modelo_spa_beauty.png" alt="GlowQueen - Spa and Beauty Center">
+  <main class="main">
     
-      <!-- Principal -->
-    <section class="hero">
-      <h1 class="hero-title">Bring back the beauty and glow of your skin</h1>
-      <p class="hero-description">We provide you various treatments from head to toe using the 
-        best product, advanced technology, and affordable price</p>
-
-      <div class="hero-buttons">
-        <a href="#book-now" class="btn-navy-blue">Book Now</a>
-        <div class="hero-video">
-          <button class="hero-play" aria-label="Play video"></button>
-          <a href="#watch-video" class="btn">Watch Video</a>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-container">
+          <div class="hero-content">
+          <section class="hero">
+            <h1 class="hero-title">Bring back the beauty and glow of your skin</h1>
+            <p class="hero-description">We provide you various treatments from head to toe using the 
+              best product, advanced technology, and affordable price</p>
+    
+            <div class="hero-buttons">
+              <a href="#book-now" class="btn-navy-blue">Book Now</a>
+              <div class="hero-video">
+                
+                <a href="#watch-video" class="btn"><i class="fa-solid fa-play play blue-icon"></i> Watch V&iacute;deo</a>
+              </div>
+            </div>
+          </section>  
+          <!--Services-->
+          <section class="services">
+            <ul class="services-list">
+              <li class="service">
+                <span class="icon service--special-treatment bg-green"></span>
+                <p class="service-number">15+</p>
+                <p class="service-label">Special Treatment</p>  
+              </li>
+              <li class="service">
+                <span class="icon service--therapist bg-green"></span>
+                <p class="service-number">25+</p>
+                <p class="service-label">Professional Therapist</p>
+              </li>
+              <li class="service">
+                <span class="icon service--herbal-cream bg-green"></span>
+                <p class="service-number">100%</p>
+                <p class="service-label">Herbal Cream Formula</p>
+              </li>
+            </ul>
+          </section>
+          </div>
+          <div class="hero-visual">
+            <!-- Reviews -->
+            <aside class="reviews">
+              <figure class="review review-up ">
+                <img src="assets/icons/comillas.svg" alt="comillas" />
+                <blockquote class="review-text">
+                  I have a regular schedule to take 
+                  treatment from GlowQueen, they gave 
+                  me the best service and treatment ever
+                  to maintain the beauty and health of
+                  my skin </blockquote>
+                <figcaption class="review-client">
+                  <span class="review-client-name">Sophia Princeton</span>
+                </figcaption>
+              </figure>
+              <figure class="review review-down">
+                <img src="assets/icons/comillas.svg" alt="comillas" />
+                <blockquote class="review-text">
+                  For the past few years. I've had a hard 
+                  time finding the right place for skin 
+                  care to deal with my complicated skin 
+                  condition, thank God I found 
+                  GlowQueen to treat my skin </blockquote>
+                <figcaption class="review-client">
+                  <span class="review-client-name">Tamara Jules</span>
+                </figcaption>
+              </figure>
+            </aside>
+          </div>
         </div>
       </div>
     </section>
-    <!--Services-->
-    <section class="services">
-      <ul class="services-list">
-        <li class="service">
-          <span class="icon service--special-treatment"></span>
-          <p class="service-number">15+</p>
-          <p class="service-label">Special Treatment</p>  
-        </li>
-        <li class="service">
-          <span class="icon service--therapist"></span>
-          <p class="service-number">25+</p>
-          <p class="service-label">Professional Therapist</p>
-        </li>
-        <li class="service">
-          <span class="icon service--herbal-cream"></span>
-          <p class="service-number">100%</p>
-          <p class="service-label">Herbal Cream Formula</p>
-        </li>
-      </ul>
-    </section>
-
-    <!-- Reviews -->
-    <aside class="reviews">
-      <figure class="review review-up ">
-        <blockquote class="review-text">
-          I have a regular schedule to take 
-          treatment from GlowQueen, they gave 
-          me the best service and treatment ever
-          to maintain the beauty and health of
-          my skin </blockquote>
-        <figcaption class="review-client">
-          <span class="review-client-name">Sophia Princeton</span>
-        </figcaption>
-      </figure>
-      <figure class="review review-down">
-        <blockquote class="review-text">
-          For the past few years. I've had a hard 
-          time finding the right place for skin 
-          care to deal with my complicated skin 
-          condition, thank God I found 
-          GlowQueen to treat my skin </blockquote>
-        <figcaption class="review-client">
-          <span class="review-client-name">Tamara Jules</span>
-        </figcaption>
-      </figure>
-    </aside>
   </main>
   
-  <footer>
+  <footer class="custom-bg">
+    <div class="square-green"></div>
+    <img class="logo" src="assets/img/logo_background.png" alt="Logo Background">
+    <img class="modelo" src="assets/img/modelo_spa_beauty.png" alt="Modelo Spa Beauty">
   </footer>
-  <script src="js/app.js"></script>
 </body>
 
 </html>
